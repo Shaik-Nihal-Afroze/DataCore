@@ -1,3 +1,8 @@
+nav {
+  width: 100vw; /* Force nav to fill viewport */
+  background-color: #1d1d40;
+}
+
 .header-container{
     width:100%;
     max-width: 100%;
