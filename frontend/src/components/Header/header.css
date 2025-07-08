@@ -1,0 +1,50 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1d1d40;
+    height: 5vh;
+}
+.swift-logo{
+    height: 60px;
+    width: 180px;
+}
+@media screen and (max-width: 430px) {
+    
+    .swift-logo {
+        height: 60px;
+        width: 100px;
+    }
+    .user-logo{
+        width: 30px;
+        height: 30px;
+    }
+    
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.user-logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #1d1d40;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+.user-name{
+    font-size: 16px;
+    font-weight: normal;
+}
+.profile-button{
+    background-color: transparent;
+    border: none;
+}
